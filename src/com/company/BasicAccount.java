@@ -5,9 +5,9 @@ public class BasicAccount extends StandardAccount
 {
     protected double WithdrawaLimit;
 
-    public BasicAccount(int accountNumber, double creditLimit ,  double withdrawaLimit)
+    public BasicAccount(int accountNumber ,  double withdrawaLimit)
     {
-        super(accountNumber, creditLimit);
+        super(accountNumber, 0);
         this.WithdrawaLimit = withdrawaLimit;
     }
 

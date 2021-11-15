@@ -2,9 +2,9 @@ package com.company;
 
 public class PremiumAccount extends StandardAccount
 {
-    public PremiumAccount(int accountNumber, double creditLimit)
+    public PremiumAccount(int accountNumber)
     {
-        super(accountNumber, creditLimit);
+        super(accountNumber,0);
     }
 
     @Override
